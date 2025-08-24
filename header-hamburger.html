@@ -1,0 +1,17 @@
+<!-- Hamburger menu for header (left side) -->
+<header class="header">
+  <div class="hamburger" id="hamburger-menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!-- Add your logo and nav here -->
+</header>
+
+<script>
+// Hamburger toggle functionality
+const hamburger = document.getElementById('hamburger-menu');
+hamburger.addEventListener('click', function() {
+  document.body.classList.toggle('nav-open');
+});
+</script>

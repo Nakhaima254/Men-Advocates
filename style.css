@@ -1,0 +1,51 @@
+body {
+            background: #dfe5eb;
+            color: var(--text-white);
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+.container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+nav {
+            width: 100%;
+            background: rgba(214, 214, 214, 0.85);
+            padding: 0.5rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            border-radius: 0 0 16px 16px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            list-style: none;
+        }
+        nav ul li a {
+            color: var(--text-white);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 18px;
+            border-radius: 24px;
+            transition: background 0.2s, color 0.2s;
+            position: relative;
+        }
+        nav ul li a:hover, nav ul li a:focus {
+            background: none;
+            color: var(--orange-color);
+        }
+
+        .logo-md{ width: 100px;}
+
+.hero_section{
+    background: darkcyan;
+}
+
