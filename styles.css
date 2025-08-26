@@ -431,7 +431,7 @@ img{
     font-weight: 700;
     font-size: 3rem;
 }
-
+/* BUTTONS */
 
 button{
     cursor: pointer;
@@ -499,6 +499,7 @@ button{
     margin-top: 2rem;
     flex-wrap: wrap;
 }
+/* SERVICES SECTION */
 .services-section{
     padding: var(--space-12) 0;
     text-align: center;
@@ -611,6 +612,7 @@ button{
     justify-content: center;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
+    overflow: hidden;
     }
 .data-section{
     max-width: var(--container-max);
