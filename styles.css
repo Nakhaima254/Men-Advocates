@@ -388,6 +388,11 @@ width: 100%;
 position: relative;
 background: var(--primary-navy);
 z-index: 1;
+ width: 100vw;
+left: 50%;
+right: 50%;
+margin-left: -50vw;
+margin-right: -50vw;
 }
 .hero_section {
  width: 100%;
@@ -540,7 +545,7 @@ button{
     margin-bottom: var(--space-4);
     filter: invert(29%) sepia(83%) saturate(749%) hue-rotate(162deg) brightness(92%) contrast(85%);
     align-items: center;
-    /* border-radius: solid 3px var(--custom-color-1); */
+    border-radius: solid 3px var(--custom-color-1)
     box-shadow: var(--shadow-sm);
    
 }
@@ -571,6 +576,7 @@ button{
     transform: translate(-2px);
     color: var(--primary-navy);
 }
+/* LEGAL INNOVATION SECTION */
 .legal_innovation{
     background: var(--light-gray);
     padding: var(--space-12) 0;
@@ -615,6 +621,7 @@ button{
     max-width: 500px;
 
     }
+/* DATA SECTION */
 .data-section{
     max-width: var(--container-max);
     margin: 0 auto;
