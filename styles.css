@@ -612,10 +612,11 @@ button{
     justify-content: center;
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-md);
-    margin: 0 auto;
+  
     cover: contain;
     background-size: cover;
     overflow: clip;
+    max-width: 500px;
 
     }
 .data-section{
