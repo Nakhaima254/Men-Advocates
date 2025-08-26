@@ -384,14 +384,10 @@ img{
 }
  
 .hero_section-bg {
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  background: var(--primary-navy);
-  z-index: 1;
+width: 100%;
+position: relative;
+background: var(--primary-navy);
+z-index: 1;
 }
 .hero_section {
  width: 100%;
@@ -544,7 +540,7 @@ button{
     margin-bottom: var(--space-4);
     filter: invert(29%) sepia(83%) saturate(749%) hue-rotate(162deg) brightness(92%) contrast(85%);
     align-items: center;
-    border-radius: solid 3px var(--custom-color-1)
+    /* border-radius: solid 3px var(--custom-color-1); */
     box-shadow: var(--shadow-sm);
    
 }
